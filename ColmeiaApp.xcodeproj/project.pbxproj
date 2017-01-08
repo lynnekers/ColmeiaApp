@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7562231E21F2D2006CD677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7562221E21F2D2006CD677 /* AppDelegate.swift */; };
+		3C7562281E21F2D2006CD677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7562261E21F2D2006CD677 /* Main.storyboard */; };
+		3C75622A1E21F2D2006CD677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7562291E21F2D2006CD677 /* Assets.xcassets */; };
+		3C75622D1E21F2D2006CD677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C75622B1E21F2D2006CD677 /* LaunchScreen.storyboard */; };
+		3C7562351E21F340006CD677 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7562341E21F340006CD677 /* TableViewController.swift */; };
+		3C7562371E21F610006CD677 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7562361E21F610006CD677 /* TableViewCell.swift */; };
+		3C7562391E21FA5D006CD677 /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7562381E21FA5D006CD677 /* Professor.swift */; };
+		3C75623B1E21FE5A006CD677 /* prof.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C75623A1E21FE5A006CD677 /* prof.png */; };
+		3CB280D91E22DC1F00F9B879 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB280D71E22DC1F00F9B879 /* SCLAlertView.swift */; };
+		3CB280DA1E22DC1F00F9B879 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB280D81E22DC1F00F9B879 /* SCLExtensions.swift */; };
+		B57563F66D89098F57C2CD9F /* Pods_ColmeiaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155778373AAF7B72D8A2B811 /* Pods_ColmeiaApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10920A4DC52B7B3BC17EBCC2 /* Pods-ColmeiaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColmeiaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColmeiaApp/Pods-ColmeiaApp.release.xcconfig"; sourceTree = "<group>"; };
+		155778373AAF7B72D8A2B811 /* Pods_ColmeiaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColmeiaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C75621F1E21F2D2006CD677 /* ColmeiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColmeiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7562221E21F2D2006CD677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C7562271E21F2D2006CD677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C7562291E21F2D2006CD677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C75622C1E21F2D2006CD677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C75622E1E21F2D2006CD677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7562341E21F340006CD677 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3C7562361E21F610006CD677 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3C7562381E21FA5D006CD677 /* Professor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		3C75623A1E21FE5A006CD677 /* prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prof.png; sourceTree = "<group>"; };
+		3CB280D71E22DC1F00F9B879 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		3CB280D81E22DC1F00F9B879 /* SCLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLExtensions.swift; sourceTree = "<group>"; };
+		F968B363BFB31B6912B568B2 /* Pods-ColmeiaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColmeiaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColmeiaApp/Pods-ColmeiaApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C75621C1E21F2D2006CD677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57563F66D89098F57C2CD9F /* Pods_ColmeiaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C7562161E21F2D2006CD677 = {
+			isa = PBXGroup;
+			children = (
+				3C7562211E21F2D2006CD677 /* ColmeiaApp */,
+				3C7562201E21F2D2006CD677 /* Products */,
+				F455A08282D450626830238E /* Pods */,
+				618AEA1933C079DA5E51CB48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7562201E21F2D2006CD677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C75621F1E21F2D2006CD677 /* ColmeiaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7562211E21F2D2006CD677 /* ColmeiaApp */ = {
+			isa = PBXGroup;
+			children = (
+				3CB280D61E22DC1800F9B879 /* AlertView */,
+				3C75623A1E21FE5A006CD677 /* prof.png */,
+				3C7562221E21F2D2006CD677 /* AppDelegate.swift */,
+				3C7562341E21F340006CD677 /* TableViewController.swift */,
+				3C7562361E21F610006CD677 /* TableViewCell.swift */,
+				3C7562261E21F2D2006CD677 /* Main.storyboard */,
+				3C7562291E21F2D2006CD677 /* Assets.xcassets */,
+				3C75622B1E21F2D2006CD677 /* LaunchScreen.storyboard */,
+				3C75622E1E21F2D2006CD677 /* Info.plist */,
+				3C7562381E21FA5D006CD677 /* Professor.swift */,
+			);
+			path = ColmeiaApp;
+			sourceTree = "<group>";
+		};
+		3CB280D61E22DC1800F9B879 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				3CB280D71E22DC1F00F9B879 /* SCLAlertView.swift */,
+				3CB280D81E22DC1F00F9B879 /* SCLExtensions.swift */,
+			);
+			name = AlertView;
+			sourceTree = "<group>";
+		};
+		618AEA1933C079DA5E51CB48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155778373AAF7B72D8A2B811 /* Pods_ColmeiaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F455A08282D450626830238E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F968B363BFB31B6912B568B2 /* Pods-ColmeiaApp.debug.xcconfig */,
+				10920A4DC52B7B3BC17EBCC2 /* Pods-ColmeiaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C75621E1E21F2D2006CD677 /* ColmeiaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7562311E21F2D2006CD677 /* Build configuration list for PBXNativeTarget "ColmeiaApp" */;
+			buildPhases = (
+				037C8C374534E3DAB32499FE /* [CP] Check Pods Manifest.lock */,
+				3C75621B1E21F2D2006CD677 /* Sources */,
+				3C75621C1E21F2D2006CD677 /* Frameworks */,
+				3C75621D1E21F2D2006CD677 /* Resources */,
+				1B397777B217DDFC3603FAE8 /* [CP] Embed Pods Frameworks */,
+				9108648CBD432A9F6EFAF11C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColmeiaApp;
+			productName = ColmeiaApp;
+			productReference = 3C75621F1E21F2D2006CD677 /* ColmeiaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7562171E21F2D2006CD677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Lynneker Souza";
+				TargetAttributes = {
+					3C75621E1E21F2D2006CD677 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 63VB6DW728;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C75621A1E21F2D2006CD677 /* Build configuration list for PBXProject "ColmeiaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C7562161E21F2D2006CD677;
+			productRefGroup = 3C7562201E21F2D2006CD677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C75621E1E21F2D2006CD677 /* ColmeiaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C75621D1E21F2D2006CD677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C75622D1E21F2D2006CD677 /* LaunchScreen.storyboard in Resources */,
+				3C75622A1E21F2D2006CD677 /* Assets.xcassets in Resources */,
+				3C7562281E21F2D2006CD677 /* Main.storyboard in Resources */,
+				3C75623B1E21FE5A006CD677 /* prof.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		037C8C374534E3DAB32499FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1B397777B217DDFC3603FAE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColmeiaApp/Pods-ColmeiaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9108648CBD432A9F6EFAF11C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColmeiaApp/Pods-ColmeiaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C75621B1E21F2D2006CD677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB280DA1E22DC1F00F9B879 /* SCLExtensions.swift in Sources */,
+				3C7562371E21F610006CD677 /* TableViewCell.swift in Sources */,
+				3C7562391E21FA5D006CD677 /* Professor.swift in Sources */,
+				3CB280D91E22DC1F00F9B879 /* SCLAlertView.swift in Sources */,
+				3C7562351E21F340006CD677 /* TableViewController.swift in Sources */,
+				3C7562231E21F2D2006CD677 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C7562261E21F2D2006CD677 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7562271E21F2D2006CD677 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C75622B1E21F2D2006CD677 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C75622C1E21F2D2006CD677 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C75622F1E21F2D2006CD677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C7562301E21F2D2006CD677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C7562321E21F2D2006CD677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F968B363BFB31B6912B568B2 /* Pods-ColmeiaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63VB6DW728;
+				INFOPLIST_FILE = ColmeiaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lynneker.souza.colmeia.ColmeiaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C7562331E21F2D2006CD677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10920A4DC52B7B3BC17EBCC2 /* Pods-ColmeiaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63VB6DW728;
+				INFOPLIST_FILE = ColmeiaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lynneker.souza.colmeia.ColmeiaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C75621A1E21F2D2006CD677 /* Build configuration list for PBXProject "ColmeiaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C75622F1E21F2D2006CD677 /* Debug */,
+				3C7562301E21F2D2006CD677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7562311E21F2D2006CD677 /* Build configuration list for PBXNativeTarget "ColmeiaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7562321E21F2D2006CD677 /* Debug */,
+				3C7562331E21F2D2006CD677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7562171E21F2D2006CD677 /* Project object */;
+}
