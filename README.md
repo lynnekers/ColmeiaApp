@@ -1,9 +1,10 @@
 #  App
 
 <p align="center">
-<img src="https://github.com/egmoll7/EMAlertController/blob/master/Images/alert.gif" alt="Icon"/>
+<img src="https://github.com/lynnsouz/ColmeiaApp/blob/master/presentation.gif" alt="Icon"/>
 </p>
-# Colmeia - PT-BR
+
+# sPT-BR
 
 Olá pessoal,
 
@@ -11,7 +12,7 @@ Esse app é bem simples de ser utilizado.
 Ao execultar no device ele já tras todos os professores e você pode pesquisar por um professor, clicando no campo de busca em cima da lista de professores.
 Ao clicar em algum professor vc vai ver o Corriculo dele.
 
-# Colmeia EN
+# EN
 
 Hey,
 
