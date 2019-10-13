@@ -57,11 +57,12 @@ class TableViewController: UITableViewController, UISearchResultsUpdating {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.tableView.deselectRow(at: indexPath, animated: true)
         self.searchController.searchBar.endEditing(true)
-        SCLAlertView().showInfo("Curriculo da(o) \(professores[indexPath.row].name!)", subTitle: "\(professores[indexPath.row].curriculum!)")
+        SCLAlertView().showInfo("Curriculo da(o) \(professores[indexPath.row].name!)", subTitle: "\(professores[indexPath.row].curriculum!)", colorStyle: 2)
     }
 
-    // MARK: - Table view data source
+    // MARK: - Table view data source.
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -91,7 +92,7 @@ class TableViewController: UITableViewController, UISearchResultsUpdating {
                 for object in objects! {
                     let newProfessor = Professor(professor: object)
                     
-                    if let imagem = object["imagem"] as? PFFile {
+                    if let imagem = object["imagem"] as? PFFileObject {
                         imagem.getDataInBackground {(data, error) in
                             if let _ = error {
                                 print(error ?? "Error on picture.")

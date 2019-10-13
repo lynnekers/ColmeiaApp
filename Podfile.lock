@@ -1,18 +1,26 @@
 PODS:
-  - Bolts/Tasks (1.8.4)
-  - Cosmos (7.0.0)
-  - Parse (1.14.2):
-    - Bolts/Tasks (~> 1.8)
+  - Bolts/Tasks (1.9.0)
+  - Cosmos (20.0.1)
+  - Parse (1.17.3):
+    - Parse/Core (= 1.17.3)
+  - Parse/Core (1.17.3):
+    - Bolts/Tasks (~> 1.9)
 
 DEPENDENCIES:
-  - Cosmos (~> 7.0)
+  - Cosmos
   - Parse
 
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - Cosmos
+    - Parse
+
 SPEC CHECKSUMS:
-  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
-  Cosmos: 2c8299147138758f6ebbb247cf1aeed77998bdf9
-  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Cosmos: b47fddf2102bb48580cd3025d9ce0a5c658a65da
+  Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
 
-PODFILE CHECKSUM: 01c8f2f96ab48b1b38f57862965a8e30c56ef944
+PODFILE CHECKSUM: 1330493955545a929a1a9e07418ab869d4df517a
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.8.3
