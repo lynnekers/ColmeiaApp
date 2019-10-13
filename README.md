@@ -1,3 +1,8 @@
+#  App
+
+<p align="center">
+<img src="https://github.com/egmoll7/EMAlertController/blob/master/Images/alert.gif" alt="Icon"/>
+</p>
 # Colmeia - PT-BR
 
 Olá pessoal,
