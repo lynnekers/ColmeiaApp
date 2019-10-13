@@ -16,5 +16,6 @@ When the app is started, it gets from server all teachers and you can look for o
 When you select some teacher you will see his Resumé.
 
 # Install
-`pod isntall`
+Terminal: `pod install`
+
 Run Xcode projetct.
